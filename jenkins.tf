@@ -23,11 +23,6 @@ variable "ec2_name" {
 default = "terraform1_instance"
 }
 
-variable "repo_name" {
-    type = "string"
-    description = "this is new repo"
-    default = "tf-git"
-  }
 
     output "ec2_ip" {
     value = aws_instance.app_server
