@@ -1,7 +1,7 @@
 provider "aws" {
     region     = "ap-south-1"
-    access_key = "AKIA24LGQVQK35WAWAN4"
-    secret_key = "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"
+    access_key = "XXXXXXXXXXXXX"
+    secret_key = "XXXXXXXXXXXXXXX"
 
 }
 resource "aws_instance" "app_server" { 
